@@ -288,28 +288,28 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID or user.id == LEGENDX:
-        text += "\n\nThe Disaster level of this person is 'God'."
+        text += "\n\nThe Disaster level of this person is MY '//B//O//S//S//'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
 
-        text += "\n\nThis user is member of 'TEAMLEGEND'."
+        text += "\n\nThis user is member of my'ÇØ-FÔŪÑDËR×͜×'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Dragon'."
+        text += "\n\nThe Disaster level of this person is my '꧁Wн¡тε Dεv¡ł༒꧂'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Demon'."
+        text += "\n\nThe Disaster level of this person is '🇾 🇦 🇲 🇷 🇦 🇯'."
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Tiger'."
+        text += "\n\nThe Disaster level of this person is my '╰‿╯ㅤϟＴＥＲＲＯＲ†'."
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\nThe Disaster level of this person is 'Wolf'."
+        text += "\n\nThe Disaster level of this person is '✴️Hā©️kër➖'."
         disaster_level_present = True
 
     if disaster_level_present:
 
-        text += ' [<a href="https://t.me/SuzuyaUpdates/55">?</a>]'.format(bot.username)
+        text += ' [<a href="https://t.me/chat_bomber">?</a>]'.format(bot.username)
 
     try:
         user_member = chat.get_member(user.id)
